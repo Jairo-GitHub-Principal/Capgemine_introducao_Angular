@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PrimeiroComponenteComponent } from './primeiro-componente.componente';
 import { SegundoComponentComponent } from './segundo-component/segundo-component.component';
 import { RenderizarListaComponent } from './renderizar-lista/renderizar-lista.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponenteComponent,
     SegundoComponentComponent,
-    RenderizarListaComponent /** declaração da classe que criamos, com essa declaração 
+    RenderizarListaComponent,
+    TwoWayDataBindingComponent /** declaração da classe que criamos, com essa declaração 
                                       conseguiremos exibir o nosso conteudo la da classe 
                                       "export class PrimeiroComponenteComponent{} " na pagina  */
   ],
